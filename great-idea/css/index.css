@@ -153,13 +153,9 @@ h5 {
 
 .container {
   width: 880px;
-  margin: 0 auto;
+  margin: auto;
 }
-header nav {
-  display: inline-block;
-  width: 880px;
-  padding: 10px;
-}
+
 header nav a {
   display: inline-block;
   width: 100px;
@@ -167,35 +163,43 @@ header nav a {
   color: gray;
   text-decoration: none;
 }
-header nav a:hover {
-  text-decoration: underline;
-}
-.logo {
+
+header nav img {
   display: inline-block;
   margin: 0 0 0 20px;
   text-align: right;
 }
-.topLabel {
+
+header nav a:hover {
+  text-decoration: underline;
+}
+
+.innovation {
   margin-top: 80px;
-}
-.top div {
   font-size: 70px;
-  display: inline-block;
-  text-align: center;
-  padding: 50px;
-  vertical-align: top;
 }
-.top div button {
+
+.innovation button {
   background: white;
+  padding: 5px 30px;
   vertical-align: top;
   font-size: 15px;
   border: 1px solid black;
   cursor: pointer;
 }
-.top div button:hover {
+
+.innovation button:hover {
   background: black;
   color: white;
 }
+
+.top div {
+  display: inline-block;
+  text-align: center;
+  padding: 50px;
+  vertical-align: top;
+}
+
 .top img {
   display: inline-block;
 }
@@ -226,4 +230,5 @@ footer {
 }
 .copy {
   text-align: center;
+  margin: 10px 0px;
 }
