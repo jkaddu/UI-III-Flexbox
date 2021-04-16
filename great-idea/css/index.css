@@ -149,41 +149,54 @@ h5 {
   margin-bottom: 15px;
 }
 
-/* Copy and paste your work from yesterday here and start to refactor into flexbox */
+/* Copy and paste your work from yesterday here and start to refactor into flex box */
 
 .container {
-  width: 880px;
-  margin: auto;
+  max-width: 75%;
+  margin: 0 auto;
 }
 
-header nav a {
-  display: inline-block;
-  width: 100px;
-  padding: 10px;
+nav {
+  width: 100%;
+  display: flex;
+}
+nav a {
+  width: 12%;
+  margin: 1% auto;
+  padding: 2%;
   color: gray;
   text-decoration: none;
+  text-align: center;
 }
 
-header nav img {
-  display: inline-block;
-  margin: 0 0 0 20px;
-  text-align: right;
+#image {
+  padding: 1%;
+  width: 17%;
+  margin: 0 0 0 5%;
 }
 
 header nav a:hover {
   text-decoration: underline;
 }
 
+.top {
+  display: flex;
+  width: 100%;
+  margin: 4% auto;
+}
+
 .innovation {
-  margin-top: 80px;
-  font-size: 70px;
+  margin: 5% 0 0 0;
+  width: 49%;
+  text-align: center;
+  font-size: 5rem;
 }
 
 .innovation button {
   background: white;
-  padding: 5px 30px;
+  padding: 1% 7%;
   vertical-align: top;
-  font-size: 15px;
+  font-size: 1rem;
   border: 1px solid black;
   cursor: pointer;
 }
@@ -193,42 +206,37 @@ header nav a:hover {
   color: white;
 }
 
-.top div {
-  display: inline-block;
-  text-align: center;
-  padding: 50px;
-  vertical-align: top;
+#image2 {
+  width: 49%;
 }
 
-.top img {
-  display: inline-block;
+#image3 {
+  width: 100%;
 }
-.middle-img {
-  display: inline-block;
-  width: 880px;
-}
-.mid {
-  padding: 30px;
+.middle {
+  display: flex;
+  width: 100%;
   border-top: 1px solid black;
+  margin: 0 auto;
 }
-.mid div {
-  padding: 20px;
-  display: inline-block;
-  width: 400px;
+.middle div {
+  width: 45%;
+  padding: 3%;
+  margin: 1%;
 }
-.bot {
-  padding: 30px;
+.bottom {
+  display: flex;
 }
-.bot div {
-  display: inline-block;
-  width: 230px;
-  margin: 20px;
+.bottom div {
+  width: 30%;
+  padding: 3%;
+  margin: 1%;
 }
 footer {
-  padding: 50px;
+  padding: 5%;
   border-top: 1px solid black;
 }
 .copy {
   text-align: center;
-  margin: 10px 0px;
+  margin: 5% auto 0;
 }
