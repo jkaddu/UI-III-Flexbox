@@ -169,7 +169,7 @@ nav a {
   text-align: center;
 }
 
-#image {
+.image {
   padding: 1%;
   width: 17%;
   margin: 0 0 0 5%;
@@ -206,11 +206,11 @@ header nav a:hover {
   color: white;
 }
 
-#image2 {
+.image2 {
   width: 49%;
 }
 
-#image3 {
+.image3 {
   width: 100%;
 }
 .middle {
