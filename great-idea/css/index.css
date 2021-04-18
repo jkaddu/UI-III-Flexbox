@@ -310,6 +310,11 @@ nav a:hover {
   font-size: 1.2rem;
 }
 
+.facts ul {
+  margin-top: 5%;
+  line-height: 2rem;
+}
+
 .services-info-img {
   width: 42%;
   margin: 2% 2%;
