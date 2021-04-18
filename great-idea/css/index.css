@@ -241,13 +241,30 @@ footer {
   margin: 5% auto 0;
 }
 
-.services-content {
-  padding: 4% 0'
+/* service page */
+
+.service-container {
+  width: 90%;
+  margin: 0 auto;
 }
+
+.services-header-img {
+  width: 100%;
+  margin-top: 2%;
+}
+.services-content {
+  width: 100%;
+  border: 1px solid red;
+}
+
+.services-content image {
+  width: 100%;
+}
+
 .card-container {
+  width: 100%;
   display: flex;
   flex-wrap: wrap;
-  margin: 3% 3%;
   border-top: 1px solid black;
 }
 .card {
@@ -262,5 +279,5 @@ footer {
   margin-top: 4%;
   padding: 2% 7%;
   border-radius: 7px;
-  font-size: .7rem;
+  font-size: 0.7rem;
 }
