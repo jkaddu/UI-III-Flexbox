@@ -151,8 +151,12 @@ h5 {
 
 /* Copy and paste your work from yesterday here and start to refactor into flex box */
 
+html {
+  font-size: 62.5%;
+}
+
 .container {
-  max-width: 75%;
+  max-width: 80%;
   margin: 0 auto;
 }
 
@@ -161,6 +165,7 @@ nav {
   display: flex;
 }
 nav a {
+  font-size: 2rem;
   width: 12%;
   margin: 1% auto;
   padding: 2%;
@@ -182,21 +187,21 @@ nav a:hover {
 .top {
   display: flex;
   width: 100%;
-  margin: 4% auto;
+  margin: 7% auto;
 }
 
 .innovation {
   margin: 5% 0 0 0;
-  width: 49%;
+  width: 50%;
   text-align: center;
-  font-size: 5rem;
+  font-size: 8rem;
 }
 
 .innovation button {
   background: white;
   padding: 1% 7%;
   vertical-align: top;
-  font-size: 1rem;
+  font-size: 1.5rem;
   border: 1px solid black;
   cursor: pointer;
 }
@@ -207,7 +212,7 @@ nav a:hover {
 }
 
 .image2 {
-  width: 49%;
+  width: 50%;
 }
 
 .image3 {
@@ -217,23 +222,24 @@ nav a:hover {
   display: flex;
   width: 100%;
   border-top: 1px solid black;
-  margin: 0 auto;
 }
 .middle div {
-  width: 45%;
-  padding: 3%;
-  margin: 1%;
+  font-size: 2rem;
+  width: 50%;
+  padding: 3% 0;
 }
 .bottom {
   display: flex;
 }
 .bottom div {
   width: 30%;
-  padding: 3%;
-  margin: 1%;
+  font-size: 2rem;
+  padding: 3% 0;
+  margin-right: 3%;
 }
 .index-footer {
-  padding: 5%;
+  font-size: 2rem;
+  padding: 5% 0;
   border-top: 1px solid black;
   margin-bottom: 1%;
 }
@@ -245,7 +251,7 @@ nav a:hover {
 /* service page */
 
 .service-container {
-  width: 90%;
+  width: 80%;
   margin: 0 auto;
 }
 
@@ -265,8 +271,8 @@ nav a:hover {
 }
 
 .services-text {
-  font-size: 1.2rem;
-  line-height: 1.5rem;
+  font-size: 2rem;
+  line-height: 1.2;
   margin: 0 0 2% 0;
 }
 
@@ -274,53 +280,57 @@ nav a:hover {
   width: 100%;
   display: flex;
   flex-wrap: wrap;
-  justify-content: center;
+  justify-content: space-between;
   border-top: 1px solid black;
   border-bottom: 1px solid black;
+  padding: 1% 0;
 }
 .card {
   border: 1px solid black;
-  background-color: lightgrey;
-  font-size: 1.2rem;
-  line-height: 1.5rem;
-  width: 42%;
-  padding: 2% 2%;
-  margin: 2% 2%;
+  background-color: #f0f0f0;
+  font-size: 2rem;
+  line-height: 1.2;
+  width: 48%;
+  margin: 2% 0;
+  padding: 1% 2% 1% 1%;
 }
 
 .card button {
+  background-color: white;
   margin-top: 4%;
   padding: 2% 7%;
   border-radius: 7px;
-  font-size: 0.7rem;
+  font-size: 1.5rem;
 }
 
 .services-info {
   display: flex;
-  justify-content: center;
+  justify-content: space-between;
 }
 
 .facts {
+  font-size: 2rem;
   width: 42%;
-  margin: 2% 2%;
-  line-height: 1.2rem;
+  margin: 2% 0;
+  line-height: 1.2;
 }
 
 .facts h2 {
-  font-size: 1.2rem;
+  font-size: 2rem;
 }
 
 .facts ul {
   margin-top: 5%;
-  line-height: 2rem;
+  line-height: 1.5;
 }
 
 .services-info-img {
-  width: 42%;
-  margin: 2% 2%;
+  width: 50%;
+  margin: 2% 0;
 }
 
 .services-footer {
+  font-size: 2rem;
   margin: 3% auto;
   text-align: center;
   padding: 2% 2%;
